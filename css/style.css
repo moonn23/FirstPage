@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 115%;
+  background-color: bisque;
+}
+header nav ul {
+  background: linear-gradient(to right, rgb(0, 229, 255), rgb(117, 208, 48));
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  border-color: rgb(35, 131, 72);
+  border-style: solid;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.image_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image_company img {
+  width: 200px; 
+  height: 200px;
+}
+.image_index img {
+  width: 50%;
+  height: auto;
+}
+.image_game {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  gap: 10px; 
+}
+.image_game img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  color: rgb(163, 17, 29);
+  text-align: center;
+}
+h2 {
+  color: rgb(156, 59, 14);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
