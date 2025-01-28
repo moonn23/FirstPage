@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/quizz.js"></script>
 </head>
 <body>
     <header id="top">
@@ -49,8 +50,20 @@
           <p>Grounded</p>
         </div>
       </div>
-      <button><a href="#top">Back To Top</a></button>
+      <h2>Quizz</h2>
+      <p>Guest the game below?</p>
+      <img src="images/7days.jpg" alt="7 days" style="display: block;" onmouseover="message()" onmouseleave="disMessage()">
+      <p>This game is ...</p>
+      <p id="output"></p>
+      <button id="showName" onclick="show()">Name</button>
+      <button id="hiddenName" onclick="nonShow()">Close</button>
+      <p id="result">Game: 7 days to die</p>
+      <button id="toTop"><a href="#top">Jump to Top</a></button>
     </main>
+    <footer>
+      @2025 <br>
+      Assignment for Cousera
+    </footer>
 
 </body>
 </html>
