@@ -54,6 +54,8 @@
       <p>Guest the game below?</p>
       <img src="images/7days.jpg" alt="7 days" style="display: block;" onmouseover="message()" onmouseleave="disMessage()">
       <p>This game is ...</p>
+      <input type="text" id="input" placeholder="Enter name you guess" onfocus="focusFunction()" onblur="blurFunction()">
+      <button id="enterName" onclick="enterName()">Enter</button>
       <p id="output"></p>
       <button id="showName" onclick="show()">Name</button>
       <button id="hiddenName" onclick="nonShow()">Close</button>

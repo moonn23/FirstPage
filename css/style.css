@@ -61,7 +61,7 @@ header nav ul li a {
 }
 
 .image_index img {
-  width: 50%;
+  width: 25%;
   height: auto;
 }
 .image_game {
@@ -141,6 +141,7 @@ p {
   border-radius: 5px;
   padding: 7px;
   box-shadow: 2px 2px 5px rgb(138, 135, 135);
+  margin-top: 20px;
 }
 #showName:hover, #hiddenName:hover {
   background-color: rgb(101, 126, 178);
@@ -155,3 +156,4 @@ footer {
   padding: 5px;
   text-align: center
 }
+
